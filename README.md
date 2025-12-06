@@ -56,13 +56,13 @@ This will:
 In separate terminals:
 ```bash
 # Terminal 1: Start RMI Server
-./run_rmi_server.sh
+mvn exec:java -Dexec.mainClass="rmi.RMIServer"
 
 # Terminal 2: Start CORBA Server  
-./run_corba_server.sh
+mvn exec:java -Dexec.mainClass="corba.CORBAServer"
 
 # Terminal 3: Run Client
-./run_client.sh
+mvn javafx:run
 ```
 
 ## Features

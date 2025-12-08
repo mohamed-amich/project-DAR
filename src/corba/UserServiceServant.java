@@ -35,9 +35,9 @@ public class UserServiceServant {
 
     private void initializeSampleUsers() {
         users.put("admin", new InternalUser("admin", "Administrator", "admin@library.com", "admin123", "admin"));
-        users.put("user1", new InternalUser("user1", "John Doe", "john@example.com", "pass123", "user"));
-        users.put("user2", new InternalUser("user2", "Jane Smith", "jane@example.com", "pass456", "user"));
-        users.put("librarian", new InternalUser("librarian", "Library Staff", "staff@library.com", "lib123", "librarian"));
+        users.put("user1", new InternalUser("user1", "Amich", "amich@example.com", "pass123", "user"));
+        users.put("user2", new InternalUser("user2", "dali", "dali@example.com", "pass456", "user"));
+        users.put("librarian", new InternalUser("librarian", "ahmed", "staff@library.com", "lib123", "librarian"));
     }
 
     public Boolean registerUser(String id, String name, String email, String password) {

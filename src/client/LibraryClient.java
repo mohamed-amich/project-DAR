@@ -230,7 +230,7 @@ public class LibraryClient {
         
         System.out.println("\n--- All Users (" + users.length + " total) ---");
         System.out.printf("%-12s %-20s %-25s %-10s %-8s%n", "ID", "Name", "Email", "Role", "Active");
-        System.out.println("-".repeat(80));
+        System.out.println("--------------------------------------------------------------------------------");
         
         for (UserData user : users) {
             System.out.printf("%-12s %-20s %-25s %-10s %-8s%n",

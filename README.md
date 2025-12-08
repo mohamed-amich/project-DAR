@@ -1,7 +1,7 @@
 # Distributed Library Management System
+This project is presented by Mohamed Amich && Mohamed Ali Zarrouk 
 
 A Java-based distributed application demonstrating both CORBA-style and RMI technologies for remote method invocation.
-This project is presented by Mohamed Amich && Mohamed Ali Zarrouk
 
 ## Project Overview
 
